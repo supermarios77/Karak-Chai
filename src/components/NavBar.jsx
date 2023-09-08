@@ -22,7 +22,7 @@ function NavBar() {
               <a href="/">Menu</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="#about">About</a>
             </li>
           </ul>
         </div>

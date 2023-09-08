@@ -185,3 +185,42 @@ header ul li a:hover::before {
   color: white;
   line-height: 2;
 }
+
+/* About */
+
+.About {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.About .image-section {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 4%;
+  flex: 1 1 40rem;
+}
+
+.About .image-section img {
+  border-radius: 40%;
+  width: 100%;
+}
+
+.About .about-text {
+  margin-left: 5%;
+  margin-right: 4%;
+  flex: 1 1 40rem;
+}
+
+.About .about-text h3 {
+  font-size: 4rem;
+  color: black;
+}
+
+.About .about-text p {
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
