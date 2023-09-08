@@ -1,3 +1,7 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap');
+
 /* Style For All Elements */
 * {
   margin: 0;
@@ -25,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0, 0.05);
+  box-shadow: 10px 8px 2px 10px rgba(0, 0, 0, 0.29);
 }
 
 .logo {
@@ -146,3 +150,38 @@ header ul li a:hover::before {
   }
 }
 
+
+/* Banner */
+
+.Banner-BG {
+  background: url("./images/Banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.Banner {
+  min-height: 40rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Banner-BG .Banner .context {
+  width: 50rem;
+  text-align: center;
+}
+
+.Banner-BG .Banner .context h3 {
+  font-size: 6rem;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.Banner-BG .Banner .context p {
+  font-size: 1.6rem;
+  color: white;
+  line-height: 2;
+}
