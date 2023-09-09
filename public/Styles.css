@@ -214,7 +214,7 @@ header ul li a:hover::before {
 }
 
 .About .about-text h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -222,5 +222,70 @@ header ul li a:hover::before {
   padding: 1rem 0;
   line-height: 2;
   color: var(--light-color);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+
+/* Facility */
+
+.Facility {
+  margin-top: 5rem;
+  font-family: 'Poppins';
+  margin-bottom: 8rem;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading img {
+  height: 8rem;
+}
+
+.heading h3 {
+  font-size: 4rem;
+  color: rgb(30, 29, 29);
+  font-family: 'Merienda', sans-serif;
+}
+
+.Facility .box-container {
+  margin-right: 28px;
+  margin-left: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.Facility .box-container .box {
+  text-align: center;
+}
+
+.Facility .box-container .box img {
+  height: 10rem;
+  margin-bottom: .5rem;
+}
+
+.Facility .box-container .box h3 {
+  font-size: 2rem;
+  color: rgb(29, 28, 28);
+  margin: 1rem 0;
+}
+
+.Facility .box-container .box p {
+  line-height: 2;
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+
+.Facility .box-container .box:hover {
+  background-color: #413f3f;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.Facility .box-container .box:hover h3 {
+  color: #fff;
 }
