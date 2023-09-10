@@ -1,5 +1,5 @@
 import React from "react";
-import facilityHeader from "../assets/Facility-Header.png";
+import facilityHeader from "../assets/Header.png";
 import tea from "../assets/tea.png";
 
 const Facility = () => {
