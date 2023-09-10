@@ -14,7 +14,7 @@
 /* Body Styling */
 body {
   background-size: cover;
-  background-color: #dee1e2;
+  background-color: #ffffff;
 }
 
 /* NavBar */
@@ -288,4 +288,47 @@ header ul li a:hover::before {
 
 .Facility .box-container .box:hover h3 {
   color: #fff;
+<<<<<<< Updated upstream
+=======
+}
+
+/* Menu  */
+
+.menu {
+  margin-bottom: 8rem;
+}
+
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menu .box-container .box{
+  text-align: center;
+}
+
+.menu .box-container .box img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10%;
+  background-size: cover;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.menu .box-container .box h3 {
+  font-size: 2rem;
+  color: #181717;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.price {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #000000;
+>>>>>>> Stashed changes
 }

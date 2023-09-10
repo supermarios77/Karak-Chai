@@ -15,8 +15,11 @@ const Facility = () => {
           <img src={tea} alt="tea" />
           <h3>Varieties Of Tea</h3>
           <p>
-            Percolator affogato single origin organic grounds mazagran macchiato
-            extraction. Aroma seasonal decaffeinated espresso single shot breve
+            Karak Chai offers a diverse range of teas, from traditional black to
+            herbal blends and various chai's, catering to different tastes. Our
+            carefully sourced and expertly crafted teas provide a delightful and
+            authentic experience, making them perfect for both morning and
+            evening consumption.
           </p>
         </div>
 
@@ -24,8 +27,9 @@ const Facility = () => {
           <img src={tea} alt="tea" />
           <h3>Best Quality</h3>
           <p>
-            Percolator affogato single origin organic grounds mazagran macchiato
-            extraction. Aroma seasonal decaffeinated espresso single shot breve
+            Karak Chai guarantees high-quality tea with a robust flavour, using
+            carefully handpicked leaves from top tea gardens, expertly processed
+            and blended for full-bodied, aromatic tea.
           </p>
         </div>
 
@@ -37,7 +41,6 @@ const Facility = () => {
             extraction. Aroma seasonal decaffeinated espresso single shot breve
           </p>
         </div>
-        
       </div>
     </section>
   );
