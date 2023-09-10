@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../assets/Header.png";
 import PakistaniTea from "../assets/Pakistani-Chai.jpg";
 import KashmiriChai from "../assets/Kashmiri-Chai.jpg";
+import AfghaniChai from "../assets/afghani-chai.jpg";
 
 const Menu = () => {
   return (
@@ -22,6 +23,11 @@ const Menu = () => {
         <div className="box">
           <img src={KashmiriChai} alt="Tea" />
           <h3> Kashmiri Chai <span className="price">2£</span> </h3>
+        </div>
+
+        <div className="box">
+          <img src={AfghaniChai} alt="Tea" />
+          <h3> Afghani Chai <span className="price">2£</span> </h3>
         </div>
 
       </div>
