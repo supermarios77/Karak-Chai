@@ -13,8 +13,11 @@
 
 /* Body Styling */
 body {
+  /* background: url("./images/tea.jpg") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-color: #ffffff;
 }
 
 /* NavBar */
@@ -259,7 +262,9 @@ header ul li a:hover::before {
 
 .Facility .box-container .box {
   text-align: center;
-}
+  grid-template-columns: repeat(2, 1fr); 
+ }
+
 
 .Facility .box-container .box img {
   height: 10rem;
@@ -332,7 +337,6 @@ header ul li a:hover::before {
 
 /* SetUp Media Querys */
 
-/* Default Styles (for larger screens) */
 
 /* Media Queries for Header */
 @media (max-width: 800px) {
@@ -424,7 +428,7 @@ header ul li a:hover::before {
   }
 
   .menu .box-container .box img {
-    width: 500px;
+    width: 100%;
     margin-bottom: 1rem;
     border-radius: 10%;
     background-size: cover;
@@ -442,12 +446,12 @@ header ul li a:hover::before {
   }
 
   .menu .box-container .box img {
-    width: 100%;
-    margin-bottom: 1rem;
-    border-radius: 10%;
-    background-size: cover;
-    height: 50rem;
-    object-fit: cover;
+    width: 250px;
+    height: auto;
+  }
+
+  .menu .box-container .box h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -471,10 +475,21 @@ header ul li a:hover::before {
   }
 
   .Facility .box-container .box h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
   
   .Facility .box-container .box p {
     font-size: 18px;
+    line-height: 2.8;
   }
+
+  .Facility .box {
+     grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width:900) {
+  .Facility .box {
+    grid-template-columns: repeat(3, 1fr); 
+ }
 }
