@@ -26,7 +26,7 @@ const Menu = () => {
 
       <div className="box-container">
         <div className="box">
-          <img src={PakistaniTea} alt="Tea" />
+          <img src={PakistaniTea} alt="Tea" loading="lazy"/>
           <h3>
             {" "}
             Pakistani Chai <span className="price">3£</span>{" "}
@@ -34,7 +34,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={KashmiriChai} alt="Tea" />
+          <img src={KashmiriChai} alt="Tea" loading="lazy"/>
           <h3>
             {" "}
             Kashmiri Chai <span className="price">3£</span>{" "}
@@ -42,7 +42,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={AfghaniChai} alt="Tea" />
+          <img src={AfghaniChai} alt="Tea" loading="lazy"/>
           <h3>
             {" "}
             Afghani Chai <span className="price">3£</span>{" "}
@@ -50,7 +50,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={MasalaChai} alt="Tea" />
+          <img src={MasalaChai} alt="Tea" loading="lazy"/>
           <h3>
             {" "}
             Masala Chai <span className="price">3£</span>{" "}
@@ -58,7 +58,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={KarakChai} alt="Tea" />
+          <img src={KarakChai} alt="Karak Chai" loading="lazy"/>
           <h3>
             {" "}
             Karak Chai <span className="price">3£</span>{" "}
@@ -66,7 +66,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={TurkishTea} alt="Tea" />
+          <img src={TurkishTea} alt="Turish Tea" loading="lazy"/>
           <h3>
             {" "}
             Turkish Çay <span className="price">3£</span>{" "}
@@ -74,7 +74,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={BlackTea} alt="Tea" />
+          <img src={BlackTea} alt="Black Tea" loading="lazy"/>
           <h3>
             {" "}
             Black Tea <span className="price">3£</span>{" "}
@@ -82,7 +82,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={CinnamonTea} alt="Tea" />
+          <img src={CinnamonTea} alt="Cinnamon Tea" loading="lazy"/>
           <h3>
             {" "}
             Cinnamon Tea <span className="price">3£</span>{" "}
@@ -90,7 +90,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={CardamomTea} alt="Tea" />
+          <img src={CardamomTea} alt="Cardamom Tea" loading="lazy"/>
           <h3>
             {" "}
             Cardamom Tea <span className="price">3£</span>{" "}
@@ -98,7 +98,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={ChamomileTea} alt="Tea" />
+          <img src={ChamomileTea} alt="Chamomile Tea" loading="lazy"/>
           <h3>
             {" "}
             Chamomile Tea <span className="price">3£</span>{" "}
@@ -106,7 +106,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={MintTea} alt="Tea" />
+          <img src={MintTea} alt="Mint Tea" loading="lazy"/>
           <h3>
             {" "}
             Mint Tea <span className="price">3£</span>{" "}
@@ -114,7 +114,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={GreenTea} alt="Tea" />
+          <img src={GreenTea} alt="Green Tea" loading="lazy"/>
           <h3>
             {" "}
             Green Tea <span className="price">3£</span>{" "}
@@ -122,7 +122,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={GingerTea} alt="Tea" />
+          <img src={GingerTea} alt="Ginger Tea" loading="lazy"/>
           <h3>
             {" "}
             Ginger Tea <span className="price">3£</span>{" "}
@@ -130,7 +130,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={OolongTea} alt="Tea" />
+          <img src={OolongTea} alt="Oolong Tea" loading="lazy"/>
           <h3>
             {" "}
             Oolong Tea <span className="price">3£</span>{" "}
@@ -138,7 +138,7 @@ const Menu = () => {
         </div>
 
         <div className="box">
-          <img src={PersianTea} alt="Tea" />
+          <img src={PersianTea} alt="Persian Tea" loading="lazy"/>
           <h3>
             {" "}
             Persian Tea <span className="price">3£</span>{" "}
